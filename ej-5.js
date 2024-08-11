@@ -14,12 +14,12 @@ while (consumoDatos <= limiteDatos) {
     consumoDatos += parseInt(prompt('consumo en MB'));
 
     if (consumoDatos > limiteDatos) {
-        alert('ya consumió todos los datos')
+        alert('ya consumió todos los datos');
     } else {
         alert(`Llevas consumidos ${consumoDatos}MB de tu plan de${limiteDatos}MB.
-            Te quedan disponibles: ${limiteDatos - consumoDatos}MB`)
-    }
-}
+            Te quedan disponibles: ${limiteDatos - consumoDatos}MB`);
+    };
+};
 
 
 
